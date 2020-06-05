@@ -16,7 +16,7 @@ const pool = new Pool({
 });
 
 // const sql = `
-//     CREATE TABLE IF NOT EXISTS tarefas
+//     CREATE TABLE IF NOT EXISTS modelos
 //     (
 //         ID serial primary key,
 //         name varchar(200) not null,
@@ -34,8 +34,8 @@ const pool = new Pool({
 
 // INSERT
 const sql_insert = `
-        INSERT INTO tarefas (name, done) 
-            VALUES ('Assistir La Casa de Papel', true)
+        INSERT INTO modelos (name, done) 
+            VALUES ('Nike', true)
 `;
 
 pool.query(sql_insert, function(error, result) {
@@ -47,7 +47,7 @@ pool.query(sql_insert, function(error, result) {
 
 // SELECT
 
-// const sql_select = `SELECT * FROM tarefas`;
+// const sql_select = `SELECT * FROM modelos`;
 
 // pool.query(sql_select, function(error, result) { 
 //     if(error)
