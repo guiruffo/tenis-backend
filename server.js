@@ -3,12 +3,12 @@ const Pool = require('pg').Pool;
 const cors = require('cors');
 
 const pool = new Pool({
-    user: 'fvpmjbfbkkohok',
-    password: '18cf974044dcc2d0eba982628b7c0894865430916d4b7c05e0f918e66715230d',
-    host: 'ec2-54-161-208-31.compute-1.amazonaws.com',
-    database: 'd2pub2rn6eak0j',
+    user: 'ipkklwrcgkvlkz',
+    password: '718d173f083e9afb325a3a0191ba92764920b6466f1f560a20a6365a52a8f860',
+    host: 'ec2-54-86-170-8.compute-1.amazonaws.com',
+    database: 'df3etrr8i5j2sn',
     port: 5432,
-    ssl: { rejectUnauthorized: false }
+    ssl:  { rejectUnauthorized: false }
 });
 
 const server = express();
