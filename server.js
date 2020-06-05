@@ -8,7 +8,7 @@ const pool = new Pool({
     host: 'ec2-54-161-208-31.compute-1.amazonaws.com',
     database: 'd2pub2rn6eak0j',
     port: 5432,
-    ssl: {rejectUnauthorized: false}
+    ssl: { rejectUnauthorized: false }
 });
 
 const server = express();
